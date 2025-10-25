@@ -1,23 +1,4 @@
-# 📅 Projet Speedy — Plan de mise en œuvre (Blackswan Technology)
-
-## Description du projet
-Le projet Speedy vise à déployer des composants React modulaires intégrés à Odoo, permettant de gérer :  
-
-- Catalogue produits avec filtres  
-- Fiche produit détaillée  
-- Panier et informations véhicule  
-- Localisation magasin  
-- Création et validation de commandes  
-- Historique des commandes clients  
-
-Le projet est limité au site institutionnel Speedy, avec middleware sécurisé pour la communication entre React et Odoo.
-
----
-
-## Rôles de l'équipe
-- **Développeur React** – Composants front-end et interface utilisateur  
-- **Développeur Odoo** – Middleware et intégration des données Odoo  
-- **Chef de projet** – Coordination, validation et documentation
+# 📅 Projet Speedy — Plan de mise en œuvre (8 semaines) — Blackswan Technology
 
 ---
 
@@ -86,3 +67,68 @@ gantt
 
     section Project Lead
     Coordination & Validation       :pm1, 2025-10-27, 8w
+```
+
+---
+
+## ✅ Tâches accomplies
+
+### Semaine 1
+- [ ] Revue des spécifications et définition structure React
+- [ ] Définition architecture API et mise en place middleware
+- [ ] Lancement projet et validation périmètre technique
+
+### Semaine 2
+- [ ] Début développement Catalogue & Fiche Produit
+- [ ] Authentification sécurisée et endpoints produit
+- [ ] Coordination mise en place et validation API
+
+### Semaine 3
+- [ ] Finalisation Catalogue & Fiche Produit
+- [ ] Pagination, cache et gestion erreurs
+- [ ] Supervision intégration inter-équipes
+
+### Semaine 4
+- [ ] Panier & Infos véhicule
+- [ ] Intégration création commande et POS
+- [ ] Validation workflow commande
+
+### Semaine 5
+- [ ] Localisateur magasins (code postal + géolocalisation)
+- [ ] Optimisation échanges de données
+- [ ] Coordination des tests
+
+### Semaine 6
+- [ ] Historique commandes et authentification client
+- [ ] Finalisation tests middleware et documentation
+- [ ] Validation des fonctionnalités
+
+### Semaine 7
+- [ ] Intégration complète et UI/UX refinement
+- [ ] Tests intégration complets
+- [ ] Gestion retours client
+
+### Semaine 8
+- [ ] QA, corrections et préparation livraison
+- [ ] Ajustements finaux et revue endpoints
+- [ ] Validation finale et remise projet
+
+---
+
+## ⚠️ Difficultés potentielles du projet
+
+### Techniques
+- **Intégration React-Odoo** : Synchronisation des données entre les deux systèmes peut être complexe
+- **Performance** : Gestion du cache et optimisation des requêtes API pour éviter les lenteurs
+- **Sécurité** : Mise en place d'une authentification robuste entre React et Odoo
+- **Géolocalisation** : Intégration des services de localisation et gestion des permissions navigateur
+
+### Organisationnelles
+- **Coordination équipes** : Synchronisation entre développeurs React et Odoo
+- **Tests d'intégration** : Validation complète du workflow bout en bout
+- **Documentation** : Maintien de la documentation à jour pendant le développement
+
+### Fonctionnelles
+- **Gestion des erreurs** : Traitement des cas d'erreur dans le flux de commande
+- **UX/UI** : Adaptation de l'interface aux contraintes Odoo
+- **Compatibilité navigateurs** : Tests sur différents navigateurs et appareils
