@@ -4,16 +4,16 @@
 
 ## 🗓️ Chronogramme du projet (8 semaines)
 
-| Semaine | Développeur React | Développeur Odoo | Chef de projet | Livrables clés |
-|---------|------------------|-----------------|----------------|----------------|
-| **1** | Revue des spécifications, définition structure React | Définition architecture API, mise en place middleware | Lancement projet, validation périmètre technique | ✅ Spécifications et architecture validées |
-| **2** | Début Catalogue & Fiche Produit | Authentification sécurisée, endpoints produit et entrepôt | Coordination mise en place, validation API | ✅ Middleware fonctionnel de base |
-| **3** | Finalisation Catalogue & Fiche Produit | Pagination, cache, gestion erreurs | Supervision intégration inter-équipes | ✅ Démo catalogue produit |
-| **4** | Panier & Infos véhicule | Intégration création commande (`sale.order`) et POS | Validation workflow commande | ✅ Flux panier et création commande prêts |
-| **5** | Localisateur magasins (code postal + géolocalisation) | Optimisation échanges de données | Coordination des tests | ✅ Localisateur intégré |
-| **6** | Historique commandes et authentification client | Finalisation tests middleware et documentation | Validation des fonctionnalités | ✅ Tous composants fonctionnels |
-| **7** | Intégration complète, UI/UX refinement | Tests intégration complets | Gestion retours client | ✅ Démo intégration complète livrée |
-| **8** | QA, corrections, préparation livraison | Ajustements finaux et revue endpoints | Validation finale, remise projet | ✅ Livraison finale et documentation prête |
+| Semaine | Développeur React | Développeur Odoo | Livrables clés |
+|---------|------------------|-----------------|----------------|
+| **1** | Revue des spécifications, définition structure React | Définition architecture API, mise en place middleware | ✅ Spécifications et architecture validées |
+| **2** | Début Catalogue & Fiche Produit | Authentification sécurisée, endpoints produit et entrepôt | ✅ Middleware fonctionnel de base |
+| **3** | Finalisation Catalogue & Fiche Produit | Pagination, cache, gestion erreurs | ✅ Démo catalogue produit |
+| **4** | Panier & Infos véhicule | Intégration création commande (`sale.order`) et POS | ✅ Flux panier et création commande prêts |
+| **5** | Localisateur magasins (code postal + géolocalisation) | Optimisation échanges de données | ✅ Localisateur intégré |
+| **6** | Historique commandes et authentification client | Finalisation tests middleware et documentation | ✅ Tous composants fonctionnels |
+| **7** | Intégration complète, UI/UX refinement | Tests intégration complets | ✅ Démo intégration complète livrée |
+| **8** | QA, corrections, préparation livraison | Ajustements finaux et revue endpoints | ✅ Livraison finale et documentation prête |
 
 ---
 
