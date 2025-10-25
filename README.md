@@ -1,0 +1,88 @@
+# 📅 Projet Speedy — Plan de mise en œuvre (Blackswan Technology)
+
+## Description du projet
+Le projet Speedy vise à déployer des composants React modulaires intégrés à Odoo, permettant de gérer :  
+
+- Catalogue produits avec filtres  
+- Fiche produit détaillée  
+- Panier et informations véhicule  
+- Localisation magasin  
+- Création et validation de commandes  
+- Historique des commandes clients  
+
+Le projet est limité au site institutionnel Speedy, avec middleware sécurisé pour la communication entre React et Odoo.
+
+---
+
+## Rôles de l'équipe
+- **Développeur React** – Composants front-end et interface utilisateur  
+- **Développeur Odoo** – Middleware et intégration des données Odoo  
+- **Chef de projet** – Coordination, validation et documentation
+
+---
+
+## 🗓️ Chronogramme du projet (8 semaines)
+
+| Semaine | Développeur React | Développeur Odoo | Chef de projet | Livrables clés |
+|---------|------------------|-----------------|----------------|----------------|
+| **1** | Revue des spécifications, définition structure React | Définition architecture API, mise en place middleware | Lancement projet, validation périmètre technique | ✅ Spécifications et architecture validées |
+| **2** | Début Catalogue & Fiche Produit | Authentification sécurisée, endpoints produit et entrepôt | Coordination mise en place, validation API | ✅ Middleware fonctionnel de base |
+| **3** | Finalisation Catalogue & Fiche Produit | Pagination, cache, gestion erreurs | Supervision intégration inter-équipes | ✅ Démo catalogue produit |
+| **4** | Panier & Infos véhicule | Intégration création commande (`sale.order`) et POS | Validation workflow commande | ✅ Flux panier et création commande prêts |
+| **5** | Localisateur magasins (code postal + géolocalisation) | Optimisation échanges de données | Coordination des tests | ✅ Localisateur intégré |
+| **6** | Historique commandes et authentification client | Finalisation tests middleware et documentation | Validation des fonctionnalités | ✅ Tous composants fonctionnels |
+| **7** | Intégration complète, UI/UX refinement | Tests intégration complets | Gestion retours client | ✅ Démo intégration complète livrée |
+| **8** | QA, corrections, préparation livraison | Ajustements finaux et revue endpoints | Validation finale, remise projet | ✅ Livraison finale et documentation prête |
+
+---
+
+## 📦 Livrables par phase
+
+| Phase | Livrables |
+|-------|-----------|
+| **Semaines 1–2** | Middleware setup, architecture validée, structure initiale React |
+| **Semaines 3–6** | Composants React fonctionnels complets et middleware stable |
+| **Semaine 7** | Intégration front-end / back-end complète |
+| **Semaine 8** | QA finale, documentation, livraison projet |
+
+---
+
+## 🧩 Répartition de la charge
+
+| Rôle | Implication | Responsabilités principales |
+|------|------------|-----------------------------|
+| **Développeur React** | ~55% | Développer 6 composants UI et assurer flux de données |
+| **Développeur Odoo** | ~35% | Construire middleware, gérer données Odoo et endpoints |
+| **Chef de projet** | ~10% | Coordination, validation et documentation |
+
+---
+
+## 🏁 Résultat final
+- Composants React opérationnels intégrés à Odoo  
+- Middleware sécurisé assurant communication fluide  
+- Projet livré, testé et documenté en 8 semaines
+
+---
+
+## 🕒 Gantt du projet
+
+```mermaid
+gantt
+    title Projet Speedy — Timeline Blackswan Technology
+    dateFormat  YYYY-MM-DD
+    axisFormat  %W
+
+    section React Developer
+    Catalogue & Fiche Produit       :react1, 2025-10-27, 2w
+    Panier & Infos véhicule         :react2, after react1, 2w
+    Localisateur & Historique       :react3, after react2, 2w
+    Intégration & UI/UX refinement :react4, after react3, 1w
+
+    section Odoo Developer
+    Middleware & API setup          :odoo1, 2025-10-27, 2w
+    API Endpoints & Auth            :odoo2, after odoo1, 2w
+    Tests & Optimisation            :odoo3, after odoo2, 2w
+    Final adjustments               :odoo4, after odoo3, 1w
+
+    section Project Lead
+    Coordination & Validation       :pm1, 2025-10-27, 8w
